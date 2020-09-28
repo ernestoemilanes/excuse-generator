@@ -1,0 +1,38 @@
+.first-wrap,
+.second-wrap,
+.third-wrap {
+    position: relative;
+    text-align: center;
+    padding-top: 0px;
+    background-color: black;
+    height: 200px;
+    width: auto;
+}
+
+.static {
+    color: yellow;
+    padding-top: 15px;
+}
+
+#the-excuse,
+#the-name,
+#the-number {
+    color: red;
+}
+
+body {
+    background-color: yellow;
+}
+
+#btn,
+#second-btn,
+#third-btn {
+    position: absolute;
+    top: 84%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    background-color: yellow;
+    border: none;
+    text-decoration: none;
+}
