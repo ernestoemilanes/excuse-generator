@@ -28,7 +28,12 @@ let excuseGenerator = () => {
     let possession5 = Math.floor((Math.random() * possession.length));
     let where6 = Math.floor((Math.random() * where.length));
 
-    return firstWord[firstWord1] + ' ' + adjective[adjective2] + ' ' + noun[noun3] + ' ' + action[action4] + ' ' + possession[possession5] + ' ' + where[where6];
+    // return firstWord[firstWord1] + ' ' + adjective[adjective2] + ' ' + noun[noun3] + ' ' + action[action4] + ' ' + possession[possession5] + ' ' + where[where6];
+    return `${firstWord[firstWord1]}
+    ${adjective[adjective2]}
+    ${noun[noun3]}
+    ${action[action4]}
+    ${where[where6]}`
 };
 
 let secondExcuseGenerator = () => {
