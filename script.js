@@ -6,7 +6,7 @@ window.onload = () => {
         document.querySelector('#the-name').innerHTML = secondExcuseGenerator();
     });
     document.querySelector('#third-btn').addEventListener('click', () => {
-        document.querySelector('#the-number').innerHTML = secondExcuseGenerator();
+        document.querySelector('#the-number').innerHTML = thirdExcuseGenerator();
     });
 }
 
@@ -29,6 +29,7 @@ let excuseGenerator = () => {
     let where6 = Math.floor((Math.random() * where.length));
 
     // return firstWord[firstWord1] + ' ' + adjective[adjective2] + ' ' + noun[noun3] + ' ' + action[action4] + ' ' + possession[possession5] + ' ' + where[where6];
+    //? Template Literals
     return `${firstWord[firstWord1]}
     ${adjective[adjective2]}
     ${noun[noun3]}
@@ -42,8 +43,8 @@ let secondExcuseGenerator = () => {
     let firstName = ['John ', 'James ', 'Julian ', 'Adam ', 'Alex '];
     let lastName = ['Smith ', 'Garcia ', ' Doe ', 'Diaz '];
 
-    let firstName1 = Math.floor((Math.random() * firstWord.length));
-    let lastName2 = Math.floor((Math.random() * adjective.length));
+    let firstName1 = Math.floor((Math.random() * firstName.length));
+    let lastName2 = Math.floor((Math.random() * lastName.length));
 
 
     return firstName[firstName1] + ' ' + lastName[lastName2];
