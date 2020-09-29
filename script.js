@@ -52,7 +52,7 @@ let secondExcuseGenerator = () => {
 
 let thirdExcuseGenerator = () => {
 
-    let number = Math.floor((Math.random() * 10) + 1);
+    let number = Math.floor((Math.random() * 100000) + 1);
 
     return number;
 }
